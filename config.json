@@ -1,0 +1,8 @@
+{
+    "redirectHttp": true,
+    "httpPort": 80,
+    "httpsPort": 443,
+    "logConnections": true,
+    "debugLogMax": 50,
+    "connectionLogMax": 500
+}

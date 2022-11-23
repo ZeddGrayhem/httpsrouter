@@ -1,0 +1,22 @@
+{
+  "name": "httpsrouter",
+  "version": "1.0.0",
+  "description": "Node.js router for reverse proxying & serving express apps through https by accessed domain name",
+  "main": "httpsrouter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zed",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "express": "^4.18.1",
+    "http-proxy": "^1.18.1",
+    "https": "^1.0.0",
+    "log4js": "^6.7.0",
+    "node-watch": "^0.7.3",
+    "path": "^0.12.7",
+    "tls": "^0.0.1",
+    "vhost": "^3.0.2"
+  }
+}
